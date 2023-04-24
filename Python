@@ -1,0 +1,18 @@
+#PROGRAMA QUE ESTABLECE SI PUEDES ENTRAR A UN ESTABLECIMIEENTO +18:
+
+#Ingreso de datos
+wNombre = input("Ingrese nombre: ")
+wEdad = int(input("Ingrese edad: "))
+
+#Procesamiento de datos
+if(wEdad >= 18):
+  wCondic = "permite"
+
+else:
+  wCondic = "prohíbe"
+
+print()
+#Salida de datos
+print("A " + wNombre + " se le " + wCondic + " el ingreso")
+  
+
